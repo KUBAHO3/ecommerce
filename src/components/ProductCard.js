@@ -8,7 +8,15 @@ export function ProductCard(props) {
     
     return (
         <>
-            <h4>Our ProductCard Component is called</h4>
+            <div className='col-3 '>
+                <div className='m-2 bg-secondary border rounded text-center shadow-sm'>
+                    <img src='BTR-logo.png' className="mt-3" width="300" height="300"></img>
+                    <hr/>
+                    <h4 className=' fw-bold' id="">Skating link</h4>
+                    <h6>$17.05</h6>
+                    <button type="button" className="btn btn-warning my-2">More details</button>
+                </div>
+            </div>
         </>
     )
 }

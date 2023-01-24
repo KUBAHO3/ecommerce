@@ -8,6 +8,7 @@ import { Featured } from './components/Featured';
 import { Footer } from './components/Footer';
 
 function App() {
+  
   return (
     <div className="App">
       
@@ -15,6 +16,9 @@ function App() {
       <Navbar/>
       <Header/>
       <Featured/>
+      <div className='container-fluid row m-3'>
+      <ProductCard/></div>
+      <Footer/>
     </div>
   );
 }

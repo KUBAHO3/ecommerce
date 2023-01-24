@@ -5,7 +5,7 @@ export function Navbar(props) {
 
     return (
         <>
-        <nav className="navbar container py-4">
+        <nav className="navbar container py-4" id="navbar">
             <a className="navbar-brand" href="#">
             <h4><img src="BTR-logo.png" width="30" height="30" className="d-inline-block align-top rounded-circle" alt=""></img>
                 BrainTechRise</h4>
