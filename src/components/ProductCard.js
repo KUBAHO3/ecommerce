@@ -8,9 +8,9 @@ export function ProductCard(props) {
     
     return (
         <>
-            <div className='col-3 '>
+            <div className='col-lg-3 col-md-6 col-sm-12'>
                 <div className='m-2 bg-secondary border rounded text-center shadow-sm'>
-                    <img src='BTR-logo.png' className="mt-3" width="300" height="300"></img>
+                    <img src='BTR-logo.png' className="mt-3 img-fluid" width="300" height="300"></img>
                     <hr/>
                     <h4 className=' fw-bold' id="">Skating link</h4>
                     <h6>$17.05</h6>

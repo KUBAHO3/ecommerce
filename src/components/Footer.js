@@ -7,7 +7,7 @@ export function Footer(props) {
         <>
             <div className='container-fluid bg-danger text-white'>
                 <div className='container d-flex justify-content-between py-4'>
-                    <img src='BTR-logo.png' className="mt-3 rounded-circle" width="200" height="200"></img>
+                    <img src='BTR-logo.png' className="mt-3 rounded-circle img-fluid" width="200" height="200"></img>
                     <h3 className='mt-4'>
                     Patricia C. Amedee 4401 <br/>
                     Waldeck Street Grapevine <br/>
